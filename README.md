@@ -1,16 +1,74 @@
-# React + Vite
+# 🏨 Hotel Management System (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Hotel Management System** is a full-stack web application built using the **MERN stack**.  
+It helps manage hotel operations such as room bookings, customer management, and billing in an efficient and organized way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack (MERN)
 
-## React Compiler
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Runtime Environment:** Node.js
+- **Version Control:** Git & GitHub
+- **IDE:** VS Code
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User-friendly web interface
+- Room and customer management
+- Booking and reservation handling
+- Check-in and check-out functionality
+- Billing and payment calculation
+- RESTful API integration
+- Secure data storage using MongoDB
+
+---
+
+## 📂 Project Structure
+Hotel_Managememt/
+│
+├── client/ # React frontend
+│ ├── src/
+│ └── package.json
+│
+├── server/ # Node & Express backend
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+│ ├── server.js
+│ └── package.json
+│
+├── .env # Environment variables
+├── README.md
+---
+
+## ⚙️ Setup Procedure
+
+Follow these steps to run the project locally.
+
+---
+
+1️⃣ Clone the Repository
+git clone https://github.com/Gowtham5912/Hotel_Managememt.git
+cd Hotel_Managememt
+
+2️⃣ Backend Setup (Node.js & Express)
+cd server
+npm install
+Create a .env file inside the server folder:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+Start the backend server:
+npm start
+
+3️⃣ Frontend Setup (React)
+Open a new terminal:
+cd client
+npm install
+npm start
+
+
